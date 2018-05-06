@@ -110,9 +110,9 @@ while True:
 	prev_right_blink_status = right_blink_status
 
 	ear = (left_ear+right_ear)/2.0
-	print("left_ear",left_ear)
-	print("right_ear",right_ear)
-	print("ear",ear)
+	# print("left_ear",left_ear)
+	# print("right_ear",right_ear)
+	# print("ear",ear)
 
 	# Blink ( both eyes are closed )
 	if ear < 0.25 and ear!=0 and right_ear < 0.25 and left_ear < 0.25 and left_ear!=0 and right_ear!=0:
